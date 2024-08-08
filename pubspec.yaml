@@ -61,11 +61,8 @@ flutter:
 
   #To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/Abdul Basit.jpg
-    - assets/images/Al-Minshawi.jpg
-    - assets/images/Maher Almaikulai.jpg
-    - assets/images/Mahmoud Ali Al-Banna.jpg
-    - assets/sounds/An-Nas.mp3
+    - assets/images/
+    - assets/sounds/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
