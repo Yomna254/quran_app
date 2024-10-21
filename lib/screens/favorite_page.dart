@@ -7,49 +7,49 @@ class FavoritePage extends StatelessWidget {
   const FavoritePage({super.key});
   final List<Item> item = const [
     Item(
-      sound: 'assets/sounds/An-Nas.mp3',
+      sound: 'sounds/An-Nas.mp3',
       info: 'Makki - 6 Verses',
       name: 'Surah An-Nas',
       num_page: '604',
       number: '114',
     ),
     Item(
-      sound: 'assets/sounds/Al-Falaq.mp3',
+      sound: 'sounds/Al-Falaq.mp3',
       info: 'Makki - 5 Verses',
       name: 'Surah Al-Falaq',
       num_page: '604',
       number: '113',
     ),
     Item(
-      sound: 'assets/sounds/Al-Ikhlas.mp3',
+      sound: 'sounds/Al-Ikhlas.mp3',
       info: 'Makki - 4 Verses',
       name: 'Surah Al-Ikhlas',
       num_page: '604',
       number: '112',
     ),
     Item(
-      sound: 'assets/sounds/Al-Masad.mp3',
+      sound: 'sounds/Al-Masad.mp3',
       info: 'Makki - 5 Verses',
       name: 'Surah Al-Masad',
       num_page: '603',
       number: '111',
     ),
     Item(
-      sound: 'assets/sounds/An-Nasr.mp3',
+      sound: 'sounds/An-Nasr.mp3',
       info: 'Makki - 3 Verses',
       name: 'Surah An-Nasr',
       num_page: '603',
       number: '110',
     ),
     Item(
-      sound: 'assets/sounds/Al-Kafirun.mp3',
+      sound: 'sounds/Al-Kafirun.mp3',
       info: 'Makki - 6 Verses',
       name: 'Surah Al-Kafirun',
       num_page: '603',
       number: '109',
     ),
     Item(
-      sound: 'assets/sounds/Al-Kawthar.mp3',
+      sound: 'sounds/Al-Kawthar.mp3',
       info: 'Makki - 3 Verses',
       name: 'Surah Al-Kawthar',
       num_page: '602',
@@ -120,15 +120,3 @@ class FavoritePage extends StatelessWidget {
     );
   }
 }
-/*GestureDetector(
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return PlayingPage(
-                          item_: item[index],
-                        );
-                      }));
-                    },
-                    child: Surah(items: item[index]),
-                  );
-                  */
